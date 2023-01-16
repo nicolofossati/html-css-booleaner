@@ -50,10 +50,38 @@ header{
     height: 500px;
 }
 
-section p{
+.personal_font{
     font-size: 22px;
+    font-weight: bold;
 }
 
 .marked{
     background-color: #FCFF00;
+}
+
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+.col_1-2{
+    width: 25%;
+}
+
+.col_3{
+    width: 50%;
+}
+
+.azure{
+    background-color: #B1E5F2;
+}
+
+.table_title{
+    background-color: #2AA4D9;
+    color: white;
+    font-size: 22px;
+}
+
+#table_font{
+    font-size: 20px;
 }
