@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Libre Baskerville', serif;
 }
 
 header{
@@ -14,4 +15,34 @@ header{
     position: absolute;
     bottom: 10px;
     left: 15px;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.author{
+    font-size: 20px;
+    color: #9F9F9F;
+}
+
+.author span{
+    color: #6EC7EE;
+}
+
+.date{
+    color: #9F9F9F;
+    font-size: 15px;
+}
+
+.photo_container p{
+    font-size: 13px;
+}
+
+.foto_1{
+    height: 500px;
+}
+
+.foto_2{
+    height: 500px;
 }
