@@ -2,6 +2,11 @@ body{
     margin: 0;
 }
 
+main{
+    width: 92%;
+    margin: auto;
+}
+
 header{
     height: 150px;
     background-image: url("../img/pattern.png");
@@ -26,7 +31,6 @@ header{
 
 .author{
     font-size: 20px;
-    color: #9F9F9F;
 }
 
 .author span{
@@ -84,4 +88,33 @@ table {
 
 #table_font{
     font-size: 20px;
+}
+
+.grey{
+    color: #9F9F9F;
+}
+
+.photo_monitor{
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.photo_graph{
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 300px;
+}
+
+.img_footer{
+    position: absolute;
+}
+
+.span_photo{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    padding: 10px 0 0 15px;
 }
